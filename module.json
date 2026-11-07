@@ -1,0 +1,21 @@
+{
+    "name": "school-attendance",
+    "version": "0.1.0",
+    "kernel": "^1.19.0",
+    "solves": "school.attendance",
+    "type": "module",
+    "requires": [
+        "database.management",
+        "school.people",
+        "school.classes"
+    ],
+    "exposes": [
+        "Plugins\\SchoolAttendance\\API\\Contracts\\SchoolAttendanceContract"
+    ],
+    "routes": [],
+    "emits": [],
+    "listens": [],
+    "files": [],
+    "documentation": "Derives daily arrival/departure from the raw biometric scan stream; manual entry, analytics and reports.",
+    "config": []
+}
